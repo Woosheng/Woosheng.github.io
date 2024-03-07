@@ -5,7 +5,7 @@
 
 ##镇魂
 自闭天师俏狐仙
-[设定链接](xiaojiang.html)
+[设定链接](zhenhun.html)
 
 ##小江
 我 要 草 猫
