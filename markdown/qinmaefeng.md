@@ -8,7 +8,7 @@ html:
 
 # 亲妈腿肉
 
-<div float=left> <img src="http://qungz.photo.store.qq.com/qun-qungz/V50YH16A1AayyA3HiQbu3q16u411BSNe/V5bCQA4ODE1NjgzNjD55epl2LDhBg!!/800?w5=735&h5=1739&rf=viewer_421#pic_center" width = 25%/> </div>
+<div float=left> <img src="https://pic.imgdb.cn/item/65eafa469f345e8d034637da.jpg" width = 25%/> </div>
 
 >内含：
 >r18，r18g，双性，抹布，工具，调教，猫变人……
