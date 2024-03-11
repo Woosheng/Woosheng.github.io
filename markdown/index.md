@@ -17,7 +17,7 @@
 癫公疯狗 💔 失聪小猫
 ▶ [清水版 → 设定链接](qingshui.html)
 ▶ [双性版 → 设定链接](shuangxing.html)
-▶ [BG版 → 设定链接](bg.html)
+▶ [BG版 → 设定链接](bgif.html)
 
 ## 暗网
 ▶ 医生没你我怎么活啊医生
