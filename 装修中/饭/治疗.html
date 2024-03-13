@@ -1,0 +1,176 @@
+<!DOCTYPE html><html><head>
+      <title>治疗</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\Donna\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.11\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="惩罚">惩罚 </h1>
+<blockquote>
+<p>前情提要：艾江来到诊所一年后。</p>
+</blockquote>
+<h2 id="一">（一） </h2>
+<p>来到这里已经多久了？一年？还是两年？</p>
+<p>过往的幻觉时常折磨着他，那些疼痛和屈辱像咸湿的海雾时时刻刻腐蚀着他的脊骨。</p>
+<p>艾江抽出一根烟点上，他就站在休息室的窗前，看着另一个自己走进了诊所的大门。</p>
+<p>医生不喜烟味，但他却默许了自己在休息室里的行为。</p>
+<p>他眯着眼睛将烟灰弹出了窗外，随后转头目不转睛地看着休息室的门口，一直到医生穿过外面的诊室，不紧不慢地走了进来。</p>
+<p>如果是外人在这里，会发现两人拥有极其相似的外貌，这是超过了双胞胎的，更胜一筹的相像，或者说，相同。</p>
+<p>但环境和时间，终究是将两人的气质雕琢出了区分。</p>
+<p>“医生。”艾江主动向这里的主人声明了自己的存在，即使说不定对方方才在楼下就已经发现了在窗前的自己，但这是一种有必要的主动示弱的行为：“来一根吗？”</p>
+<p>医生像是巡视领地的猎食者上下打量着窗前的人，硬底的皮鞋一步步落在实木地板上却没有发出任何声响，他优雅地越走越近，微微低头，直接就着艾江的手叼上一支未点燃的烟，随后站直身体，烟头紧紧地贴着散发着炽热火星的另一支烟。</p>
+<p>或许他的手在颤抖，又或许是他整个身体都在不由自主地战栗，无论多少次和对方靠的如此之近，艾江依旧无法控制地害怕却迷恋着这种近在咫尺的危险。</p>
+<p>医生与艾江就这样靠的极近地站着，直到嘴里的烟也染上了对方嘴里的烟的灼烧的温度，也未把双手从大衣的衣兜中拿出。</p>
+<p>“把衣服脱了。”</p>
+<p>医生往后微微退了一步，拿着烟半倚靠在休息室沙发后的椅背上，仰着头命令道。</p>
+<p>艾江垂下眉，没有犹豫，在对方满意的目光下一颗颗解下了衬衫的衣扣。</p>
+<p>现在是夏天，艾江上身只穿了一件白色的衬衫，随着衣领的敞开，曾经饱受摧残折磨的躯体慢慢暴露在空气中。</p>
+<p>苍白的身体在短短一年的时间内布满了烟烫、虐打的青紫伤疤，还有些许利器造成的刀口，更别提隐藏在皮肉之下的骨头的折断和碎裂，脏器的挫伤和出血。这些磨难自产生以后从未被善待，糟糕的预后导致即使是在医生的帮助下，很多后遗症已经刻蚀在艾江的身体和心理上，形成了永久的印记。</p>
+<p>医生伸出手摸上了艾江肋骨下的一处青紫瘀伤上的术后疤痕，修长有力的手指带着些力道微微向下按去：“这里。”</p>
+<p>这里的肋骨在断后自行愈合产生了错位，是医生不得不为艾江做的手术之一。</p>
+<p>“不痛。”艾江叼着烟，含糊不清地回应，任由对方在自己身体上的一个个伤痕上触碰、按压。</p>
+<p>“不痛。”</p>
+<p>“…还是有一点难受。”</p>
+<p>……</p>
+<p>医生一处处地确认了自己的作品，看起来心情还算不错。他绕到沙发处坐下，随手将白外套脱下，和艾江褪下的衬衫一起搭在了沙发背上：“来。”</p>
+<p>像是无形的项圈被倏然收紧，即使就在开着半扇的窗户旁，艾江也感到周围的空气随着自己走向沙发的步伐开始慢慢变得稀薄。</p>
+<p>并不是他抗拒接下来发生的事情，而是生理上无法克服的恐惧像是钢印一样印在了无法磨去的记忆里。</p>
+<p>但是没有关系，因为他是医生，是另一个他一直渴望成为的强大的，主宰一切的另一个自己。</p>
+<p>艾江在医生的膝前慢慢跪下，顺从地张嘴，让医生从自己的唇齿间取下快要燃尽的烟。</p>
+<p>他知道，医生不会将烟头像那个人那样按在自己的身上任何的哪个部位，但当烟蒂熄灭的滋滋声在烟灰缸里响起时，艾江还是感觉到某根神经产生了灼痛的幻觉。</p>
+<h2 id="二">（二） </h2>
+<p>随着皮带上金属铁扣碰撞的声响，艾江拉开对方西裤的拉链，露出灰色内裤下包裹着的尚未勃起一团。修长的食指和中指微微分开，顺着紧实劲瘦的腹肌伸入薄薄的布料，将医生的内裤微微勾下，扶出对方稀疏浅淡的耻毛下尚未勃起的阴茎。</p>
+<p>他微微侧着头，凑近身体，将顶端的龟头含进嘴中轻轻舔弄着，一只手扶着余下的柱身，另一只手则顺着医生的腰腹，慢慢向上抚摸，挑逗着对方的性欲。</p>
+<p>医生任由着艾江动作，仰起头呼出一口烟团，左手摸着对方头顶细软的发丝，将那些垂下的头发撩起别在艾江的耳后，露出和自己一模一样的面容。对方那张精致漂亮的脸上没有什么特别的表情，只是从那微微下垂的眼睑和柔和放松的眉梢，略微可以体现出艾江此刻乖顺温和的姿态。</p>
+<p>艾医生玩弄着对方的耳朵，不出意料地看到了那处薄薄的皮肤逐渐变得充血，通红。他的手指顺着艾江的右耳耳廓绕了两圈，随后将红色的耳机扯了下来。</p>
+<p>艾江的身体一抖，刚被别至耳后的头发随着他的动作又滑了下来。</p>
+<p>左右耳机被并不温柔的拽下，他的世界一下子变得静谧，不安的呼吸声和心跳声被逐渐放大，他抬头仰视着端坐在沙发上的医生，看到对方叼着那支燃到一半的烟，宝蓝色的眼睛透过镜片平静地俯视着自己，不带任何情绪。那只搭在自己后脑上的手也只是轻轻抚摸着，没有离开，也没有催促的意味，仿佛一切的举动只是安抚，刚刚的动作只是他突然炸开的幻觉。</p>
+<p>艾江微微向后抬起头，一根银丝色情地挂在他的微张的唇瓣与龟头之间。他轻轻喘了两下，重新凑过去，淡粉的舌尖绕着半抬的阴茎将拉扯不清的涎水舔净，随后将其整根含了进去。</p>
+<p>他小心收着牙齿，略微加重了力道，啧啧的水声和吞咽声随着无法闭合的双唇倾泻出来。被摘下耳机的艾江清晰地听着自己吞吃和吮吸的举动，像是面前被放上了一面无形的镜子，自己所有顺从取悦的姿态都映射在其间，他感受到对方的性器正在逐渐变得坚硬和炽热，龟头的最顶端已经开始轻撞着舌根后的喉咙，让他的喉咙生理性地收缩着。</p>
+<p>艾医生歪着头，略微轻喘地打量着身下的人认真给自己口交的模样。即便是已经感到有些不适，但对方依旧努力地服侍着另一个人的性器，如今这副乖巧的模样早已不像当初刚来的那段时间那样抗拒。</p>
+<p>最开始，只要有一点点想让他跪下靠近的暗示，他就会控制不住地颤抖和干呕，哪会像现在这样——</p>
+<p>“好了。”随着艾江想要再一次为自己深喉的动作，医生将最后一点点烟灰弹尽，按熄在烟灰缸里。他就这样挺着阴茎站起身来，像是普通地要求病人躺上躺椅上的口气，对着跪在地上的艾江说：“躺过去。”</p>
+<h2 id="三">（三） </h2>
+<p>医生喜欢掌握主动，在任何事情上。</p>
+<p>艾江配合着那双操控过无数性命的手，慢条斯理地除去身上所有遮蔽之物，让自己仰躺在沙发上。即使他的灵魂正因为这样狼狈不堪的姿势下意识地抗拒和挣扎，他也任由对方轻而易举地抬起自己的腿窝。</p>
+<p>医生的手很纤细，并没有施加多少力度，却将一个成年人修长的腿稳稳定在自己的耳侧，他转过漂亮的脸蛋，薄红的唇贴上艾江柔软的皮肤，一寸寸地往下，吻过沿途丑陋扭曲的伤疤，最终落在大腿根部一处隐秘的花纹上。</p>
+<p>那是医生亲手刺染上去的纹身，一个几何构成的字母A，他们共同的名字。</p>
+<p>花纹纹在腿根一处利器造成的贯通伤上，像是被凹凸不平的疤从中贯穿一分为二，疤痕的末端还有不规则的撕裂的痕迹，显得有些狰狞。</p>
+<p>医生轻轻地咬上那处痛苦的记忆，调情般旖旎地厮磨着口中一小块软肉。艾江下意识地紧绷双腿，却被那双漂亮的手不容置疑地固定在原地，曾经的凄厉的呜咽和剧痛，被像电流一样窜上脊背的撕咬和舔弄洗刷覆盖。</p>
+<p>医生一直不轻不重地碾磨着那一块靠近腿根的位置，炽热的呼吸和柔软的发丝撩过极少被外人触碰的敏感地带，直到那处染上了青紫的吻痕，医生才结束略带占有欲的舔弄，他慢慢直起身，鬓边的长发不声不响地撩过艾江半硬的性器。</p>
+<p>艾江的呼吸不稳地起伏着，他的性器就在刚刚，在医生的脸庞边勃起。他看到未着寸缕的自己和衬衫长裤的医生，除了露在外面坚硬挺拔的阴茎，对方整齐像是刚从手术台上下来。过去的记忆开始与现实的场景重合，他也曾这样赤裸地被按在混乱的桌面上狼狈地挣扎，对方却穿着整齐，表情疯狂地像是要去参加一场肆意挥霍的盛宴。</p>
+<p>“趴着。”医生对着听话的宠物命令着，伸手松了松衣领的领带。</p>
+<p>艾江咬着下唇，整个人的动作和思绪都在一瞬间被下意识压抑到了最低限度，像是弱小的动物面对远远强于自己的捕食者尽力地弱化和缩小自己的存在，但随即他闭了闭眼，强行放松了身体，颤抖着撑着双臂转过身，低下头趴在了沙发上。</p>
+<p>没有关系，他再次给自己强调。</p>
+<p>他已很难再从那片死寂之地走出，是医生一遍遍地用自己去覆写所有不堪的记忆。</p>
+<h2 id="四">（四） </h2>
+<p>艾江屈起一条腿跪在沙发上，另一只腿则撑在地上，像发情的小猫般翘起屁股，塌下的腰弯了成极致养眼的弧度。</p>
+<p>医生满意地勾起嘴角，伸手从色情的腰窝一路慢慢摸到引人遐想的臀缝：“乖孩子。”</p>
+<p>他扶着自己勃起的阴茎，掰开对方柔软的臀瓣，不经润滑地挤压着紧致干燥的后穴。医生的性器并不过于粗大，但却拥有令人艳羡的长度且足够坚硬健康，仅仅尚未真正地进入，也足够令他产生一种即将被贯穿的错觉。那本不是用于性交的入口强烈地抗拒着外来者的入侵，对方却缓慢坚定地向前送耸动，一点点侵占另一人的隐私之地。</p>
+<p>医生一只手死死掐住艾江臀部的软肉，修长的指节嵌入细腻的皮肤将意图挣扎的猎物按在原地，另一只手则贴着穴口，感受着自己是如何将封闭的蚌壳强硬地撬开，触碰其中湿滑的裙边。</p>
+<p>即使在过去的时间里已经被太多人玩弄过，但这具身体依旧和它所承载的灵魂一样有着极强的韧性。被过度开发的记忆刻在了精神上，而肉体，至少是那用来承接所有他人欲望的地方，还像是未经多少人事的模样。</p>
+<p>艾江趴在沙发上小声呜咽着，控制不住地想要蜷缩起身子向前爬去，对方却猛地向前一顶，那一瞬间的痛感和爽感令他浑身都在发抖。他不再想着逃跑，只能将头埋在沙发的背枕上大口喘息着，感受着医生将阴茎的最后一点点长度也推入自己的身体，最终死死抵在那处令他忍不住腿软的地方。</p>
+<p>俊美的上位者并未给予艾江过多的适应时间，他微微弯着腰，半撑在对方的背上开始抽送自己的性器，动作缓慢而坚定，像是正在施予某种残忍而亲昵的酷刑。他感受到手掌下紧绷的肌肉传来细微的颤抖，来自痛苦的施予相比肉体挤压带给他更快乐的刺激，医生低喘着笑了一声，愉悦地眯起漂亮的眼睛。</p>
+<p>“痛吗？”他将衣物更加向下解开了一些，动作一点点加快。</p>
+<p>艾江没有回答，事实上他并不是听的很清楚那人在他背后说了什么，他只感觉到对方每次都将刑具推至自己身体的最里端，挤压着敏感的前列腺，随后又坚定缓慢地拔出，浑然不顾穴肉缠绵的挽留。疼痛混合着酥麻的快感传至全身，即使是抑制不住的轻声闷哼也会被他的大脑呈以数倍的放大，被封闭的感觉让他感到不安，艾江下意识地咬紧下唇，想要扭过头去，却被发现其意图的医生掐着脖子按进了垫枕里。</p>
+<p>男人强硬地镇压下所有因为这个动作而暴起的挣扎，他俯下身子，一只手撑在艾江的耳边，另一只手依旧按在对方的颈后。</p>
+<p>“艾江……”他整个身子都贴在艾江的背上，像呢喃一样轻喘着，阴茎依旧在逐渐湿润的后穴内小幅度地抽送着：“是我。”</p>
+<p>他看到艾江在自己的压制下挣扎着侧过头，那双像宝石一般的眼睛透过散乱的发丝死死盯着自己右手中指的纹身，随后整个人都安静了下来。</p>
+<p>真是——</p>
+<p>医生了然地笑着，左手轻轻捏了捏对方有些泛着湿意的脖子，随后像是拆开一件已经有些松散的礼物，缓缓拉扯着发带的末端，本就凌乱的发丝从红色的束缚中挣脱，又从洁白肩胛骨处滑落，艾江仰起头，视线却没有再离开那只撑在枕旁的手。</p>
+<p>医生任由他专注地看着，就着这个姿势，不再慢条斯理地碾磨，转而开始重重地抽动自己的性器。肉体撞击的声音混合着含混不清的呻吟在安静的休息室中回响，黑色的镜框因为激烈的冲撞被蹭到一旁，医生随手将它拿走放到一边，然后两只手都按在了对方散乱着黑色发丝的脖颈后。</p>
+<p>他并没有掐住对方的脖子，未施多少用力的手指呈现一个微微收拢的姿态，指腹极有技巧性地按在艾江颈边青色的血管上。</p>
+<p>医生利用身体的重量将泛着粉红的消瘦的身体深深按进了柔软的沙发中，他满意地感受着指腹下越来越剧烈的心跳，声带震动着发出模糊的呻吟和喘息，对方这副因为痛苦而求生挣扎的模样实在是赏心悦目。</p>
+<p>鼻腔间自由的空气越来越稀少，缺氧缺血的感觉令艾江大脑发胀，身后传来的一波又一波的快感将他清晰的灵魂搅拌成了五光十色的斑斓流体，他已无法处理任何理性的思考，身体贪婪地自作主张随着后穴地侵犯追逐摆动着，紧致的狭道在每一次撞击中都饥渴地向后压去，企图将混乱的作俑者更深、更深地留在身体里。无暇顾及的阴茎高高翘起，随着两人身体的动作色情地摆动着，时不时蹭到棕色的沙发上，留下一道湿润的水痕。</p>
+<p>好像快要死掉了……</p>
+<p>错觉在混乱的脑海中一闪而过，窒息感令艾江下意识地张着嘴，眼泪混合着口水在垫枕上晕开，他头昏脑涨地伸出手想要抚慰自己的性器，却被独裁者强硬地拉起，反剪至身后。</p>
+<p>这个动作让濒临崩溃的艾江突然缓了一口气，血液在对方松开手指的瞬间回流至全身，他猛地一颤，胸腔剧烈地起伏喘息着，然而理智勉强回笼立刻又被更加粗暴的动作冲垮，他难受地呜咽着，颤抖着求饶：“……唔……不……”。</p>
+<p>医生没有理会，只是直起身来，拽着对方的手臂更加用力地操弄着正在被性交的后穴，艾江被拽地半侧过身体，细瘦的腰身像猫一样拉伸舒展着，但又随着侵犯的举动紧紧崩起，被快感支配的身体呈现出殷红的粉色，衬着那些伤疤和痕迹尤为显眼和色情。</p>
+<p>“……我是不是…曾经说过……”医生轻喘着，看着已经恢复如初的光滑皮肤，那上面原先恐怖的针孔已经消失不见，他并没有多少感情的目光对上艾江泛着水雾的祈求的眼神：“……不可以自己动手。”</p>
+<p>艾江没有办法再像往常一样判断出医生到底说了些什么，他太混乱了，无论是下面还是大脑都被搅动的泥泞不堪。他难耐地在沙发上磨蹭着，龟头的小孔处已经开始渗出一些乳白色的前液。</p>
+<p>窗外的夜风吹不散室内情欲潮湿的气息，两具秀美的身体纠缠在一起，令人面红耳赤的粘腻水声搅动着，宝蓝色的长发垂落在布满伤痕的身体上被汗液挂住，粘连在一起结成凌乱的纹路印在艾江的凹陷的腰窝上。艾江不记得自己被这样操了多久，他只感觉到一波一波的快感如浪潮一般冲刷着他，将他拍倒在细软的沙上，再将他淹没，拉扯着一遍遍拖入湿润的海。</p>
+<p>他红着脸仰起头，嘴喉咙里挤出一些粘腻不清的声音，身后人伸来恶趣味的手玩弄着艾江柔软的嘴唇，抚摸其中小巧的齿贝，引得他温顺地张嘴，就像刚刚尽心服务的口交一样舔舐吮吸伸进来的手指，湿濡的温度顺着指腹传递过来，像瘙痒一样牵动着医生的神经。</p>
+<p>小猫舌头……</p>
+<p>医生一只手在艾江的口腔里玩弄温润的舌尖，另一手拂过颤抖的喉结滑向小巧挺立的乳头，揉掐挑弄着。他很少向对方施予奖励，唯独在性事中似乎会多一些安抚的意味，这是脱敏治疗的一种手段，也是一种控制方式，他感到身下的人努力挺起胸膛撅起屁股，企图与快感的施与者贴的更紧更密一些。即便此刻医生不再限制对方的行动，即便下身已经狼狈不堪地小股小股地喷射出精液，艾江也没有再做出自我抚慰的动作。</p>
+<p>他的手一直乖巧地撑在头的两侧，只不过已经酥软到没有任何力气基于支撑，即使是抓住身下的软垫也堪称困难。</p>
+<p>医生打量着自己的宠物，那副晕眩色情地模样看起来已经濒临高潮。他弯下身，以一种环抱的姿势与艾江贴合在一起。</p>
+<p>他们曾经像是镜子的正反面，永远无法触碰彼此，现在却以这样原始的姿态结合在一起，像毫无节制的兽一样宣泄着欲望。他咬上艾江的肩头，用力地抽动着身体，精液顺着他挺动的阴茎一股股喷射在用力绞紧的内壁之上被顶入身体的更深处，又或是尚未存留片刻又被用力的冲撞挤压至穴口，随着身体的拍打被抹匀开来。</p>
+<p>“……啊哈……呜…………”随着医生的动作，艾江无法控制的呻吟像是泣音一样拉长，他像是快乐到有些痛苦地挣动着，在不经任何抚慰的情况下就这样被草到高潮，下身随着抽动着射出濡湿的乳白色液体，如果不是身后的人扶着，他酸软麻木的身体几乎就会直接摔倒在地下去。</p>
+<p>随着翻越最高的浪涌，医生趴在艾江的背上温存着，有些亲昵地蹭了蹭对方被汗水打湿的黑发，他转过头，眯着带着些水雾的眼睛。此刻的他看起来气质不复往日的疏离与寒冷，更添上了一丝柔和的感觉。</p>
+<p>他就那样看着早就静静站在门口的白发男人，没有说话。</p>
+<p>本知道，医生或许在上楼之前早已感到自己的到来，只不过是正在兴头上，懒得搭理罢了。</p>
+<p>他倚靠在门口，颇为感兴趣地吹了声口哨。</p>
+<p>“不介意，加我一个吧？”</p>
+
+      </div>
+      <div class="md-sidebar-toc">
+<div class="md-toc">
+<details style="padding:0;;padding-left:0px;" open="">
+        <summary class="md-toc-link-wrapper">
+          <a href="#惩罚" class="md-toc-link"><p>惩罚</p>
+</a>
+          </summary>
+        <div>
+          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#一" class="md-toc-link">
+            <p>（一）</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#二" class="md-toc-link">
+            <p>（二）</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#三" class="md-toc-link">
+            <p>（三）</p>
+
+          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
+          <a href="#四" class="md-toc-link">
+            <p>（四）</p>
+
+          </a></div>
+        </div>
+      </details>
+    
+</div>
+</div>
+      <a id="sidebar-toc-btn">≡</a>
+    
+    
+    
+    
+    
+    
+<script>
+
+var sidebarTOCBtn = document.getElementById('sidebar-toc-btn')
+sidebarTOCBtn.addEventListener('click', function(event) {
+  event.stopPropagation()
+  if (document.body.hasAttribute('html-show-sidebar-toc')) {
+    document.body.removeAttribute('html-show-sidebar-toc')
+  } else {
+    document.body.setAttribute('html-show-sidebar-toc', true)
+  }
+})
+</script>
+      
+  
+    </body></html>
