@@ -1,147 +1,182 @@
-<!DOCTYPE html><html><head>
-      <title>index</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-      <link rel="stylesheet" href="file:///c:\Users\Donna\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.11\crossnote\dependencies\katex\katex.min.css">
-      
-      
-      
-      
-      
-      <style>
-      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
-/* Please visit the URL below for more information: */
-/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
-
-      </style>
-      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function () {
-    // your code here
-  });
-</script></head><body for="html-export">
-    
-    
-      <div class="crossnote markdown-preview  ">
-      
-<h1 id="设定">设定 </h1>
-<div align="center">
-本 x 艾江
-<p>黑皮白毛双开门犬系1  ‍💗 眼镜黑毛高学历猫系0</p>
-</div>
-<hr>
-<blockquote>
-<p>以下为世界观设定列表，供文手老师参考。</p>
-</blockquote>
-<h2 id="本家">本家 </h2>
-<p>▶ 出来混总是要还的<br>
-# 现代 # 囚禁 # 注射 # 强制 # 虐待 # R18G # 解剖<br>
-癫公疯狗 💔 失聪小猫<br>
-▶ <a href="qingshui.html">清水版 → 设定链接</a><br>
-▶ <a href="shuangxing.html">双性版 → 设定链接</a><br>
-▶ <a href="bgif.html">BG版 → 设定链接</a></p>
-<h2 id="暗网">暗网 </h2>
-<p>▶ 医生没你我怎么活啊医生<br>
-# 现代 # 强强 # 黑帮<br>
-独目黑帮男妈妈 💗 前杀手现医生长发男美女<br>
-▶ <a href="anwang.html">设定链接</a></p>
-<h2 id="纯爱">纯爱 </h2>
-<p>▶ 一 方 净 土<br>
-# 现代 # 小情侣 # 甜甜恋爱 # 轻松<br>
-金融狗狗总裁 💗 工科猫猫教授<br>
-▶ <a href="chunai.html">设定链接</a></p>
-<h2 id="哨向">哨向 </h2>
-<p>▶ 寡 妇 文 学<br>
-# 现代 # 正剧 # 哨兵向导 # 纯爱 # 换攻（啊？）<br>
-沉默鬃狼哨兵 💗 独裁薮猫向导<br>
-▶ <a href="shaoxiang.html">设定链接</a></p>
-<h2 id="镇魂">镇魂 </h2>
-<p>▶ 自闭天师俏狐仙<br>
-# 古玄 # 正剧 # 魑魅魍魉 # 驱魔 # 纯爱<br>
-凶煞失忆大尾巴狐 💗 自闭天禀鸳鸯眼小猫<br>
-▶ <a href="zhenhun.html">设定链接</a></p>
-<h2 id="小江">小江 </h2>
-<p>▶ 我 要 草 猫<br>
-# 现代 # 猫变人 # 轻松 # 纯爱 # 草弱智（？） # 双性 # 生小猫（？）<br>
-社畜猫奴 💗 流浪小奶牛<br>
-▶ <a href="xiaojiang.html">设定链接</a></p>
-<h2 id="小妈">小妈 </h2>
-<p>▶ 小 妈 文 学<br>
-# 现代 # 小妈 # 双性 # ntr # 强制 # 调教 # 公共场合 # 物化 # np<br>
-偷吃 💗 双性小妈<br>
-▶ <a href="xiaoma.html">设定链接</a></p>
-<h1 id="例文参考">例文参考 </h1>
-<blockquote>
-<p>↓ 乙方如果想看更多参考可以进，但如果不是你们可能想吃一点他们的饭 ↓<br>
-<a href="fan.html">&gt;&gt;&gt; 是的！我已年满18岁！</a></p>
-</blockquote>
-
-      </div>
-      <div class="md-sidebar-toc">
-<div class="md-toc">
-<details style="padding:0;;padding-left:0px;" open="">
-        <summary class="md-toc-link-wrapper">
-          <a href="#设定" class="md-toc-link"><p>设定</p>
-</a>
-          </summary>
-        <div>
-          <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#本家" class="md-toc-link">
-            <p>本家</p>
-
-          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#暗网" class="md-toc-link">
-            <p>暗网</p>
-
-          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#纯爱" class="md-toc-link">
-            <p>纯爱</p>
-
-          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#哨向" class="md-toc-link">
-            <p>哨向</p>
-
-          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#镇魂" class="md-toc-link">
-            <p>镇魂</p>
-
-          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#小江" class="md-toc-link">
-            <p>小江</p>
-
-          </a></div><div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:42px">
-          <a href="#小妈" class="md-toc-link">
-            <p>小妈</p>
-
-          </a></div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>本 x 艾江</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cardo:400,400i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <!-- Lightbox-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Parallax-->
+    <!-- <link rel="stylesheet" href="vendor/onepage-scroll/onepage-scroll.css"> -->
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/red.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="main">
+      <section class="bg-cover bg-center hero">
+        <div class="dark-overlay"></div>
+        <div class="position-relative z-index-1">
+          <div class="container text-center text-white">
+            <p class="font-italic lead">黑皮白毛双开门犬系1💗眼镜黑毛高学历猫系0</p>
+            <h1 class="text-uppercase my-4">本 x 艾江</h1>
+            <p class="font-italic lead">#R18 #R18G #双性 #抹布 #工具 #调教 #猫变人 #三人行 </p>
+            <p class=" lead">⛔等一系列有可能会雷到你的Tag⛔</p>
+          </div>
         </div>
-      </details>
-    <div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
-          <a href="#例文参考" class="md-toc-link">
-            <p>例文参考</p>
-
-          </a></div>
-</div>
-</div>
-      <a id="sidebar-toc-btn">≡</a>
-    
-    
-    
-    
-    
-    
-<script>
-
-var sidebarTOCBtn = document.getElementById('sidebar-toc-btn')
-sidebarTOCBtn.addEventListener('click', function(event) {
-  event.stopPropagation()
-  if (document.body.hasAttribute('html-show-sidebar-toc')) {
-    document.body.removeAttribute('html-show-sidebar-toc')
-  } else {
-    document.body.setAttribute('html-show-sidebar-toc', true)
-  }
-})
-</script>
+        
+      </section>
+      <section id="1">
+        <div class="d-flex h-100 align-items-center">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6"><img src="img/本家头像2.png" alt="..." class="img-fluid rounded-circle d-block mx-auto"></div>
+              <div class="col-lg-6 mb-4 mb-lg-0">
+                <header class="text-center">
+                  <h2 class="text-uppercase lined">本</h2>
+                </header>
+                <p class="lead">男性，狗系，大多数PA下都是身高195-197cm的双开门。</p>
+                <p>俄罗斯混血，黑皮白毛，头发偏长，眼睛是绿色（部分世界观下右眼为紫色义眼/没有眼球），身材属于骨架宽大但肌肉并不是很发达的程度，整体偏修长。</p>
+                <p>大多数世界观下都是极具攻击性的疯狗，偶尔是护主的忠犬，在变态和纯爱之间反复横跳。</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="1">
+        <div class="d-flex h-100 align-items-center">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 mb-4 mb-lg-0">
+                <header class="text-center">
+                  <h2 class="text-uppercase lined">艾江</h2>
+                </header>
+                <p class="lead">男性，猫系，大多数PA下都是身高175-177cm的纤细青年。</p>
+                <p>东方面孔，中分黑发，眼睛是宝蓝色，戴眼镜，头发偏长到肩膀，大多数世界观里用松散的皮筋扎着。</p>
+                <p>大多数世界观下计算机专精，做事追求结果，不论过程，效率至上，不愿与人多费口舌。</p>
+              </div>
+              <div class="col-lg-6"><img src="img/本家头像1.png" alt="..." class="img-fluid rounded-circle d-block mx-auto"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-gray">
+        <div class="d-flex h-100 align-items-center">
+          <div class="container">
+            <header class="mb-5 text-center">
+              <h2 class="text-uppercase lined">世界观</h2>
+            </header>
+            <div class="row text-center">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <h4 class="text-uppercase lined lined-compact">本家PA</h4>
+                <p class="text-mted"># 现代 # 囚禁 # 注射 # 强制 # R18G # 解剖</p>
+                <p class="text-mted">癫公疯狗 💔 失聪小猫</p>
+                <p class="text-mted"><a target="_blank" href="设定/qingshui.html" title="本家PA" style="color:inherit;">【文手】 >> 我要看字 >> 清水版</a></p>
+                <p class="text-mted"><a target="_blank" href="设定/shuangxing.html" title="本家PA" style="color:inherit;">【文手】 >> 我要看字 >> 双性版</a></p>
+                <p class="text-mted"><a target="_blank" href="设定/bgif.html" title="本家PA" style="color:inherit;">【文手】 >> 我要看字 >> BG版</a></p>
+                <!-- <p class="text-mted"><a target="_blank" href="设定/shuangxing.html" title="本家PA" style="color:inherit;">【画手】 >> 我要看图</a></p> -->
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <h4 class="text-uppercase lined lined-compact">暗网PA</h4>
+                <p class="text-mted"># 现代 # 强强 # 黑帮</p>
+                <p class="text-mted">独目黑帮男妈妈 💗 前杀手现医生长发男美女</p>
+                <p class="text-mted"><a target="_blank" href="设定/anwang.html" title="暗网PA" style="color:inherit;">【文手】 >> 我要看字</a></p>
+                <!-- <p class="text-mted"><a target="_blank" href="设定/anwang.html" title="暗网PA" style="color:inherit;">【画手】 >> 我要看图</a></p> -->
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <h4 class="text-uppercase lined lined-compact">纯爱PA</h4>
+                <p class="text-mted"># 现代 # 小情侣 # 甜甜恋爱 # 轻松</p>
+                <p class="text-mted">金融狗狗总裁 💗 工科猫猫教授</p>
+                <p class="text-mted"><a target="_blank" href="设定/chunai.html" title="纯爱PA" style="color:inherit;">【文手】 >> 我要看字</a></p>
+                <!-- <p class="text-mted"><a target="_blank" href="设定/chunai.html" title="纯爱PA" style="color:inherit;">【画手】 >> 我要看图</a></p> -->
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <h4 class="text-uppercase lined lined-compact">哨向PA</h4>
+                <p class="text-mted"># 现代 # 正剧 # 哨兵向导 # 纯爱 # 换攻（啊？）</p>
+                <p class="text-mted">沉默鬃狼哨兵 💗 独裁薮猫向导</p>
+                <p class="text-mted"><a target="_blank" href="设定/shaoxiang.html" title="哨向PA" style="color:inherit;">【文手】 >> 我要看字</a></p>
+                <!-- <p class="text-mted"><a target="_blank" href="设定/shaoxiang.html" title="哨向PA" style="color:inherit;">【画手】 >> 我要看图</a></p> -->
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <h4 class="text-uppercase lined lined-compact">镇魂PA</h4>
+                <p class="text-mted"># 古玄 # 正剧 # 魑魅魍魉 # 驱魔 # 纯爱</p>
+                <p class="text-mted">凶煞失忆大尾巴狐 💗 自闭天禀鸳鸯眼小猫</p>
+                <p class="text-mted"><a target="_blank" href="设定/zhenhun.html" title="镇魂PA" style="color:inherit;">【文手】 >> 我要看字</a></p>
+                <!-- <p class="text-mted"><a target="_blank" href="设定/zhenhun.html" title="镇魂PA" style="color:inherit;">【画手】 >> 我要看图</a></p> -->
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <h4 class="text-uppercase lined lined-compact">小江PA</h4>
+                <p class="text-mted"># 现代 # 猫变人 # 轻松 # 纯爱 # 草弱智（？）</p>
+                <p class="text-mted"># 双性 # 生小猫（？）</p>
+                <p class="text-mted">社畜猫奴 💗 流浪小奶牛</p>
+                <p class="text-mted"><a target="_blank" href="设定/xiaojiang.html" title="小江PA" style="color:inherit;">【文手】 >> 我要看字</a></p>
+                <!-- <p class="text-mted"><a target="_blank" href="设定/xiaojiang.html" title="小江PA" style="color:inherit;">【画手】 >> 我要看图</a></p> -->
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <h4 class="text-uppercase lined lined-compact">小妈PA</h4>
+                <p class="text-mted"># 现代 # 小妈 # 双性 # ntr # 强制 # 调教</p>
+                <p class="text-mted"># 公共场合 # 物化</p>
+                <p class="text-mted">偷吃 💗 双性小妈</p>
+                <p class="text-mted"><a target="_blank" href="设定/xiaoma.html" title="小妈PA" style="color:inherit;">【文手】 >> 我要看字</a></p>
+                <!-- <p class="text-mted"><a target="_blank" href="设定/xiaoma.html" title="小妈PA" style="color:inherit;">【画手】 >> 我要看图</a></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       
-  
-    </body></html>
+      
+      <section>
+        <div class="d-flex h-100 align-items-center">
+          <div class="container">
+            <header class="text-center mb-5">
+              <h2 class="text-uppercase lined">我要吃饭 </h2>
+            </header>
+            <div class="row">
+              
+              <div class="col-lg-8">
+                <p>如果想看更多【例文】参考可以进，但如果不是你们可能想吃一点他们的饭。 </p>
+                <p>请注意是否您已年满18岁。</p>
+                <p class="font-italic mb-0 text-gray"><a target="_blank" href="饭/fan.html" title="我要吃饭" class="text-gray">>>> 是的！我已年满18岁！</a></p>
+           
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+        <footer class="py-5 mt-5">
+          <div class="text-center">
+            <p class="text-gray">&copy; 黑黑 & 墨墨</p>
+          </div>
+        </footer>
+        
+      </section>
+    </div>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="vendor/onepage-scroll/jquery.onepage-scroll.min.js"></script> -->
+    <!-- <script src="vendor/lightbox2/js/lightbox.min.js"></script> -->
+    <!-- <script src="js/front.js"></script> -->
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
+</html>
