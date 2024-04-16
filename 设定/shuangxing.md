@@ -7,7 +7,6 @@ html:
 
 ## 人物，背景设定
 
-
 ### 艾江
 
 <div align=center><img src="本家头像1.png"></div>
