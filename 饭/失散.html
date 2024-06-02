@@ -1,0 +1,133 @@
+<!DOCTYPE html><html><head>
+      <title>失散</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\Donna\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.8.13\crossnote\dependencies\katex\katex.min.css">
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,.66);border:4px solid rgba(150,150,150,.66);background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. --><script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script></head><body for="html-export">
+    
+    
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="失散">失散 </h1>
+<blockquote>
+<p>严莫……</p>
+</blockquote>
+<p>这里的建筑群仿佛是被时间遗忘的产物，一座由无数废弃建材拼凑而成的平民窟——钢铁、木板和破布搭建的立体迷宫紧密相连，天空被狭窄巷弄间密布的晾衣绳和破旧招牌分割成细碎的碎片，微弱的天光只能勉强穿透这些缝隙，斑驳地映在肮脏潮湿的地上。</p>
+<p>他和严莫走散了。</p>
+<p>艾江收回佩刀，转为双手持枪，身体紧紧地靠在潮湿的木板墙上，在他的脚下是一具已经没了动静的中年男性尸体。</p>
+<p>这栋4层高的低矮建筑里一共密集地居住9户共40余人，只有将近半数的人愿意听从指挥被暂时疏散，剩下的包括严莫和自己在内，还有27人活动在这片区域，其中包括3名任务目标内伪人，7名目标外伪人，和2名已经被击毙的伪人。</p>
+<p>艾江一直保持着精神力铺开的状态监控着这栋建筑里的每一个人，但这里各种临时搭建的天桥和阶梯太多，立体复杂的网络连接着不同的楼栋和平台，严莫、那几个伪人、还有几个有无所谓的居民——他们之间的距离非常近，或许就是上下楼，或许就在一面墙后的隔壁，即使艾江能感觉的到他们紧与自己几米之隔，他也无法准确地确定他们的位置。</p>
+<p>死者的血液顺着木板纹路缓缓向下渗透，艾江移开脚尖，安静地挪到窗边——这里侧对着这间房唯一的入口，背后是一个无栏杆的平台，再往外是一个只用几根锈迹斑斑的铁管支撑的天桥，情急之下可以利用它撤离前往另一栋建筑内。</p>
+<p>他和严莫已经在这里耗了一夜，此时天空已经渐进黎明，远处开始逐渐传来犬吠和熙攘的人声，随着这里的人逐渐从睡梦中醒来，届时情况将会变得更加复杂。</p>
+<p>艾江尽量压低自己的呼吸，避免腹部刚包扎过的伤口被二次撕裂。</p>
+<p>请求增员的报告已经打出去了，希望塔里的动作能够快一点。</p>
+<p>艾江思忖着，抬眼看向身旁用废旧的断木料建造的平台窗户——遮光挡风的编织袋已经被撕烂了一半，正好方便他向外观察。艾江托着枪往外探了一眼，猝不及防和一双兴奋的眼睛对视。</p>
+<p>一个脸蛋脏兮兮的妇女正好奇地躲在对面平台的墙后看着这边，见艾江看到自己，她像看到了什么稀奇的事物一样兴奋地突然大喊大叫起来——只是没等发出第一个音节，她已经被向导精神力的冲击震晕，瘦弱的身躯倒在废弃门板搭建的平台上，就像是一袋灰土被摔在了板车上，发出不大不小的吱呀声响。</p>
+<p>在精神力感知的范围内，距离自己最近的1个人类和2个伪人也听到了这动静，他们的位置马上变化了起来。</p>
+<p>细微的动静传来，艾江猛地站起身，手中的枪口隔着破损的窗户直直抵上了那个刚从楼上跳下来的人的眉心。</p>
+<p>“严莫……！”</p>
+<p>看清来者的面孔，艾江极小声的轻呼，他扣住扳机的食指猛地一颤，双手却依旧稳稳地托着枪没有放下。</p>
+<p>即使被用枪指着要害，那双银色的眼睛透过窗框仍然专注地注视着艾江。片刻，像是确认了什么一般释然地一笑，他没有任何犹豫地伸手握住枪身，轻轻地往里一送——艾江顺着他的力道后退一步，随即转身重新藏在了墙后——他听到那人的脚步声踩着摇摇欲坠的铁管离开，似乎引着其他几个伪人顺着平台前往了建筑的侧面。</p>
+<p>艾江喘了口气，将腹部有些渗血的临时处理的扎带重新系紧，他刚迈出一步想要跟上——或者说，包抄，却马上像是被冰封一样僵在原地。</p>
+<p>不对。</p>
+<p>刚刚的那个人……真的是严莫吗？</p>
+<p>他重新辨认自己精神力覆盖范围内的人员状态，在那一瞬间感到一股浓重的寒意贯彻全身。</p>
+<p>在极近的范围内，出现了两个一模一样的严莫的精神图景，并和正在迅速聚集的伪人们靠近着。</p>
+<p>没有任何犹豫，艾江翻过窗户跟上了刚刚一行人。</p>
+<p>这座平台依着建筑外围搭建，在绕过了墙角后便可以顺着几个堆积在一起的废弃钢管来到二楼。艾江攀着有些湿滑的脚手架踩在了二楼的平台上，他抽着气，却无暇观察自己腹部伤口的状态——平台上散乱地铺设着几块废旧的胶皮，上面粘着长时间被人来往反复踩踏而形成的层层叠叠的杂乱脚印，在这之中最完整最清晰的那个战术靴的足印，很明显是属于严莫的。</p>
+<p>它太干净了。</p>
+<p>鞋印上没有反复干涸凝固的血迹，没有混合着食物残渣的肮脏泥土，即使踩在红色的胶皮上，也仅仅是留下了些许附着的碎石和纸片。</p>
+<p>艾江心里骂了一声，不再刻意放轻自己的动作，转而尽全力跟上对方。他顺着精神力延伸的方向翻过一排脚手架，最终在尽头的拐角处从一扇破损的木门重新进入了建筑的内部。</p>
+<p>从三楼到二楼几乎是绕了建筑小半圈，但艾江相信，比起错综复杂像迷宫一样的狭窄楼道，这条路线绝对比从建筑内走要快很多。</p>
+<p>这不是一个好的现象，这代表“严莫”对这一块的地形太熟悉了。</p>
+<p>艾江避开身旁堆砌的锅碗瓢盆向深处走去，楼道里却冷不防突然炸响起女人凄厉的惨叫声！在那一瞬间，小孩子的哭声，枪声，混杂着家具倾倒的巨大动静像是倒入油锅的沸水被哗啦一下掀翻，这里的建筑结构有些特殊，每一道声响都像是从四面八方混乱的声场里同时传来，艾江听地头皮发麻，只能凭着直觉快步向前走去——</p>
+<p>艾江猛地侧身躲避，被故意推倒的沉重木箱狠狠砸在地上散裂开，废弃的衣物、绳索、乱七八糟的金属零件叮呤咣啷地撒出来，艾江的左手在飞溅的木屑中死死扣住持着砍刀劈向自己的人的手腕，右手顶着对方的心脏直接扣下扳机。</p>
+<p>鲜红的动脉血喷溅在镜片上，艾江眯着眼，枪声响起的时候，他甚至没有看清楚来者的面孔。</p>
+<p>一个一直隐藏在这里等着自己送上门的伪人罢了。</p>
+<p>他还没来得及将身上尚且温热的身体推开，耳旁径直传来呼啸的风声，艾江偏头，稍有些豁口的折刀刮着红发绳拽下几缕黑色的发丝，他皱着眉，回身提起手肘猛地击中身后那人的鼻梁，霎时鼻血喷涌而出。艾江继续顺着力道狠狠地将枪托砸向对方的头部，令人牙根发麻的清脆的“咔嚓”声响起，那人瞬间失去平衡向前踉跄了两步，但随即像是感觉不到痛似得重新直起身来。</p>
+<p>男人面部的颧骨已经碎裂位移，脸上淡漠的表情混合着狼狈的鼻血和脱位的眼球搭配在一起显现出强烈的非人感，艾江被他抱着腰扑倒在碎裂的木箱上，腹部再次受创，手中的枪不受控制地掉落在一旁，他赶在最后一刻双手死死扣着男人的手腕，双方离得很近，男人脸上的血一滴滴落在艾江的额头上，对方手中的折刀就抵在向导剧烈起伏的胸口上只差毫厘，却怎么样都无法再向前一寸。</p>
+<p>没有时间再陪这几个伪人耗着了。</p>
+<p>巨大的森林里狂风呼啸，往日平静的湖面剧烈涌动着，严莫的精神图景非常紧张，不远处的某个房间里持续地传来激烈的争斗声，那里还几个贫民的精神图景，很明显他们凑到了一块儿，艾江几乎已经可以预料到场景的混乱，而严莫却只有一个人。</p>
+<p>艾江咬牙微微收手，任由刀尖插入胸口，随后借着惯性反方向将伪人推开一点距离后猛地抬腿将对方踹开，狰狞的血色在胸襟漫开，他翻起身将枪重新拿回手中，直接一枪打爆了还想重新扑上来的伪人的脑袋。</p>
+<p>“……”</p>
+<p>艾江喘着气，跨过地上的两具尸体，抬眼向前望去。</p>
+<p>应该怎么做？</p>
+<p>很明显对方所处的情形并不乐观，他能感受到严莫不想让自己前往汇合，或许自己这样贸然介入只会带来更多的混乱和麻烦，他也想过向对方传达撤离的信号，但严莫却依旧被纠缠在那里。</p>
+<p>《白塔外勤人员任务执勤条例》人类生命优先原则：在任何涉及细胞族群的突发事件中，所有应急响应行动必须将保护人类生命安全作为最高优先级。无论事件性质如何，确保人类免受即时伤害或潜在生命威胁应为首要考量。</p>
+<p>那些不愿撤走的贫民，如今绊在严莫的脚下，让他们无法脱身。</p>
+<p>披散的头发粘上了血迹黏连在一起，艾江一边重新将子弹上满，一边向着严莫所在的位置的赶去。就在他快要靠近时，密集的枪声响起，迷宫里的北极熊发出吟长的哀泣——那瞬间艾江几乎握不住手中的枪，阵阵耳鸣袭来，他感到脑海如遭重击，甚至在一瞬间失去了平衡感和方向感，被脚下坑坑洼洼的地板绊倒。</p>
+<p>严莫……！</p>
+<p>他感到自己双腿发软，跳动的心脏被巨大的窒息感攥紧，冷汗几乎在瞬间浸湿后背，艾江咬牙，十指几乎扣进了地面，他将自己撑起，踉跄地冲到房间的门口，老朽的木门被铁丝简单地缠绕了几圈充当门锁，几乎不费什么力气就被巨大的外力“嘭”地撞开，艾江毫无章法地冲进房间，却在举枪的一瞬间看到了熟悉的脸。</p>
+<p>艾江看到。</p>
+<p>艾江看到严莫站在窗边，和两个伪人一起。</p>
+<p>断裂的桌椅，碎裂的镜面，破损的废旧家具散乱一地，屋子里横七竖八地躺着几具已经失去生命体征的躯体，那个男人半身几乎都被鲜血浸透，他手里拿着一把Glock 17，枪却指的不是冲进门的自己。</p>
+<p>艾江顺着枪口向下看去，严莫的手臂以一个扭曲的姿态弯折着倒在血泊里，他似乎还有些许意识，勉强抬着眼撇向自己，干涸凝固又重新被新的血液覆盖的脸已经几乎看不出原貌，他的嘴唇细微地翕动了几下，好像要对这个唐突闯入的人说什么。</p>
+<p>说什么？</p>
+<p>火光随着枪声响起，那张脸在视网膜上溅成白白红红的一片。</p>
+<p>……</p>
+<p>当艾江重新掌握身体控制权的时候，他已经被那个伪人跪着按在了地上。</p>
+<p>新增的割伤的钝痛火辣辣地刺激着他疯狂而紧绷的神经，但他却像是失去了片刻的记忆，一点也记不起来刚刚发生的事情。</p>
+<p>只能头脑空白地与地上那个已经看不清面容的人对视。</p>
+<p>“你疯了吗！”跪在自己身上的人语气中有些心疼：“你差点伤到你自己……”</p>
+<p>那人一直压着艾江，手上却施了些巧劲，看起来像是下了狠心，但膝盖却仅是虚虚的压在对方背上，让艾江虽然被压制着，却不至于非常难受。</p>
+<p>他不是严莫。</p>
+<p>艾江想。</p>
+<p>他是细胞。</p>
+<p>他是伪人。</p>
+<p>方才在混乱中被艾江毫无章法地揍到地上的伪人瘸着一条腿晃晃悠悠地站了起来，他机械地扭动着脖子，眼珠无机制地转动着：“来了。”</p>
+<p>来了。</p>
+<p>艾江倏然清醒。</p>
+<p>由于主人动荡的精神图景而混乱弥散的精神力被急速规整收束，随即像是潮涌的大海一样瞬间扩散出去。</p>
+<p>白塔的增员来了。</p>
+<p>那个伪人走过来，将哨兵的尸体掀开，手中的砍刀直直落向被严莫护在身下，从刚刚为止一直小声啜泣发抖的瘦弱孩童，艾江猛地挣动，他想大喊住手，却发现从口中只能发出沙哑的嘶吼。</p>
+<p>鲜红的血液再次覆盖了氧化暗红的旧痕迹，那伪人提着刀向艾江这边走来，却被自己身上的伪人制止。</p>
+<p>“我来处理。”</p>
+
+      </div>
+      <div class="md-sidebar-toc">
+<div class="md-toc">
+<div class="md-toc-link-wrapper" style="padding:0;;display:list-item;list-style:square;margin-left:18px">
+          <a href="#失散" class="md-toc-link">
+            <p>失散</p>
+
+          </a></div>
+</div>
+</div>
+      <a id="sidebar-toc-btn">≡</a>
+    
+    
+    
+    
+    
+    
+<script>
+
+var sidebarTOCBtn = document.getElementById('sidebar-toc-btn')
+sidebarTOCBtn.addEventListener('click', function(event) {
+  event.stopPropagation()
+  if (document.body.hasAttribute('html-show-sidebar-toc')) {
+    document.body.removeAttribute('html-show-sidebar-toc')
+  } else {
+    document.body.setAttribute('html-show-sidebar-toc', true)
+  }
+})
+</script>
+      
+  
+    </body></html>
