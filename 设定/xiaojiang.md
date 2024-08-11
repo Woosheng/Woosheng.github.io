@@ -27,7 +27,7 @@ html:
 ## 小江
 ### 猫
 
-<div align=center><img src="小江.png"></div>
+<div align=center><img src="img/小江.png"></div>
 
 蓝眼睛长毛奶牛【小母猫】，布偶猫和奶牛猫的混血，小小一只，非常软，聪明毛很长。
 - 好奇宝宝，但胆小，怕生，怕人。
@@ -39,7 +39,7 @@ html:
 
 ### 人
 
-<div align=center><img src="小江1.png"></div>
+<div align=center><img src="img/小江1.png"></div>
 
 变成人外表看起来是“只有女性生殖器的”男性，176，中分半长黑发，宝蓝色眼睛，头发偏长到肩膀下一点，平时散下，到后期越来越像人的时候会扎起来
 > 老师写文的时候请以男性的躯体来描写，类似于是看起来是男性的，但是下体只有女性生殖器的偏中性的男性这种感觉。
@@ -47,7 +47,7 @@ html:
 
 不喜欢穿衣服，就算穿衣服也只愿意穿本穿过的，带着本味道的衣服，爱睡，每天都喜欢趴着等本回家，安静，动静很小。
 
-<div align=center><img src="小江3.jpg"><img src="小江2.png"><img src="小江4.png"></div>
+<div align=center><img src="img/小江3.jpg"><img src="img/小江2.png"><img src="img/小江4.png"></div>
 
 # 故事背景
 

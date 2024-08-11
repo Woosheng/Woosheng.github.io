@@ -12,7 +12,7 @@ html:
 
 ### 艾江
 
-<div align=center><img src="艾姐1.png"></div>
+<div align=center><img src="img/艾姐1.png"></div>
 
 女性，28岁，身高158，C+罩杯（？），中分半长黑发戴眼镜，宝蓝色眼睛。发尾偏碎，长度大概到脖颈，后期在本的要求下留长。
 > 总体给人的感觉是又纯又御的。
@@ -31,7 +31,7 @@ html:
 
 ### 本
 
-<div align=center><img src="本家头像2.png"></div>
+<div align=center><img src="img/本家头像2.png"></div>
 
 男性，196，25岁，黑皮白毛绿眼，【眼睫毛眉毛也都是白色】骨架宽大但肌肉并不是很发达的程度，整体偏修长，平时都是笑眯眯的。
 

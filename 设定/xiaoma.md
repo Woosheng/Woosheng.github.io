@@ -10,7 +10,7 @@ html:
 
 ## 艾江
 
-<div align=center><img src="小妈1.png"></div>
+<div align=center><img src="img/小妈1.png"></div>
 
 男，年龄27【此年龄是当小妈后】身高176，黑色中分半长头发，宝蓝色眼睛，戴眼镜，长相略偏一点中性，十分好看的类型。
 

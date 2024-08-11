@@ -10,7 +10,7 @@ html:
 
 ### 艾江
 
-<div align=center><img src="本家头像1.png"></div>
+<div align=center><img src="img/本家头像1.png"></div>
 
 男性，176，中分半长黑发戴眼镜，宝蓝色眼睛。头发偏长到肩膀，平时松散的用皮筋扎着。
 
@@ -34,7 +34,7 @@ html:
 
 ### 本
 
-<div align=center><img src="本家头像2.png"></div>
+<div align=center><img src="img/本家头像2.png"></div>
 
 男性，196，黑皮白毛绿眼，【眼睫毛眉毛也都是白色】骨架宽大但肌肉并不是很发达的程度，整体偏修长，平时都是笑眯眯的。
 
@@ -132,4 +132,4 @@ html:
 
 本期带着，期待艾江接下来醒来后一如往常的坚强活着。
 
-<div align=center><img src="本家1.jpg"></div>
+<div align=center><img src="img/本家1.jpg"></div>
